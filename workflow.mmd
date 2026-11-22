@@ -1,0 +1,14 @@
+flowchart TD
+  A[先定義主題、對象、教學範圍] --> B[資料蒐集 / Ingest]
+  B --> C{來源可信、相關、可追溯?}
+  C -- 否 --> B
+  C -- 是 --> D[摘要與整合 Wiki 知識頁]
+  D --> E[依教學問題查詢 Wiki]
+  E --> F[教學大綱 / Slide plan]
+  F --> G{每張投影片有 Wiki ID 與有效來源嗎?}
+  G -- 資料不足 --> B
+  G -- 引用不符 --> F
+  G -- 是 --> H[產生 HTML 簡報]
+  H --> I{渲染、互動、連結測試通過?}
+  I -- 否 --> H
+  I -- 是 --> J[輸出 Wiki + Slides + QA + Reflection]
