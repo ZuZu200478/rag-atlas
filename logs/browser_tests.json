@@ -1,0 +1,66 @@
+{
+  "tested_on": "2026-11-22",
+  "browser": "Chromium headless, DOM set_content (local file and HTTP navigation blocked by sandbox)",
+  "total": 14,
+  "pass": 14,
+  "fail": 0,
+  "results": [
+    {
+      "test": "首頁載入",
+      "status": "PASS"
+    },
+    {
+      "test": "Wiki 首頁載入",
+      "status": "PASS"
+    },
+    {
+      "test": "Wiki 搜尋",
+      "status": "PASS"
+    },
+    {
+      "test": "Wiki 頁內連結",
+      "status": "PASS"
+    },
+    {
+      "test": "14張投影片",
+      "status": "PASS"
+    },
+    {
+      "test": "下一張按鈕",
+      "status": "PASS"
+    },
+    {
+      "test": "鍵盤切換",
+      "status": "PASS"
+    },
+    {
+      "test": "Hash 指定第10張",
+      "status": "PASS"
+    },
+    {
+      "test": "教學頁引用",
+      "status": "PASS"
+    },
+    {
+      "test": "互動問答",
+      "status": "PASS"
+    },
+    {
+      "test": "跳至最後",
+      "status": "PASS"
+    },
+    {
+      "test": "工作流程 QA",
+      "status": "PASS"
+    },
+    {
+      "test": "行動版 Wiki",
+      "status": "PASS"
+    },
+    {
+      "test": "行動版簡報",
+      "status": "PASS"
+    }
+  ],
+  "javascript_errors": []
+}

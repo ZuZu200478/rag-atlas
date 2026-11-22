@@ -1,0 +1,101 @@
+[
+  {
+    "id": "S01",
+    "publisher": "NeurIPS 2020 / Lewis et al.",
+    "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+    "url": "https://proceedings.neurips.cc/paper/2020/hash/6b493230205f780e1bc26945df7481e5-Abstract.html",
+    "type": "研究論文",
+    "date": "2020",
+    "takeaways": [
+      "RAG 讓語言生成結合模型內部知識與外部可檢索的知識。",
+      "原始研究提出將檢索器與生成器整合的架構；本文只使用其基本思想，不照搬模型實驗數值。"
+    ],
+    "supports": [
+      "RAG基本定義",
+      "檢索與生成結合"
+    ]
+  },
+  {
+    "id": "S02",
+    "publisher": "Amazon Web Services",
+    "title": "What is Retrieval-Augmented Generation (RAG)?",
+    "url": "https://aws.amazon.com/what-is/retrieval-augmented-generation/",
+    "type": "技術說明",
+    "date": "持續更新",
+    "takeaways": [
+      "RAG 在回答前加入外部可信資料，協助模型參考組織或領域知識。",
+      "典型用途包含以企業內部文件回答問題；並非每次都要重新訓練模型。"
+    ],
+    "supports": [
+      "生活比喻",
+      "企業與校園應用"
+    ]
+  },
+  {
+    "id": "S03",
+    "publisher": "IBM",
+    "title": "What is Retrieval-Augmented Generation (RAG)?",
+    "url": "https://www.ibm.com/think/topics/retrieval-augmented-generation",
+    "type": "技術說明",
+    "date": "持續更新",
+    "takeaways": [
+      "將檢索內容加入提示詞，再由 LLM 組織回答，可改善資訊相關性。",
+      "RAG 有助於降低幻覺風險，但不能保證完全正確。"
+    ],
+    "supports": [
+      "RAG優點",
+      "幻覺與限制"
+    ]
+  },
+  {
+    "id": "S04",
+    "publisher": "Microsoft Learn",
+    "title": "Retrieval augmented generation (RAG) and indexes in Microsoft Foundry",
+    "url": "https://learn.microsoft.com/en-us/azure/foundry/concepts/retrieval-augmented-generation",
+    "type": "官方技術文件",
+    "date": "持續更新",
+    "takeaways": [
+      "線上 RAG 可分 Retrieve → Augment → Generate。",
+      "索引可支援關鍵字、語意、向量與混合檢索，文件標題與 URL 有助來源追溯。",
+      "資料切塊、Embedding、搜尋設定會影響檢索品質；需要權限與隱私控管。"
+    ],
+    "supports": [
+      "三步驟",
+      "索引",
+      "檢索策略",
+      "錯誤定位"
+    ]
+  },
+  {
+    "id": "S05",
+    "publisher": "Ragas",
+    "title": "Faithfulness — Ragas Documentation",
+    "url": "https://docs.ragas.io/en/stable/concepts/metrics/available_metrics/faithfulness/",
+    "type": "官方評估文件",
+    "date": "持續更新",
+    "takeaways": [
+      "Faithfulness 衡量生成回答的主張是否受提供的檢索上下文支持。",
+      "可將回答拆為可檢查的主張，再逐一比較證據；較高分代表與檢索上下文更一致。"
+    ],
+    "supports": [
+      "回答忠實度",
+      "品質評估"
+    ]
+  },
+  {
+    "id": "S06",
+    "publisher": "LangChain Documentation",
+    "title": "Learn — LangChain / LangGraph",
+    "url": "https://docs.langchain.com/oss/python/learn",
+    "type": "官方教學入口",
+    "date": "持續更新",
+    "takeaways": [
+      "官方教學包含語意搜尋、RAG Agent 與自訂 LangGraph RAG Agent。",
+      "RAG 可採分階段檢索與生成，也能擴充為具多個節點的工作流程。"
+    ],
+    "supports": [
+      "RAG的建置路徑",
+      "Agent和RAG的關係"
+    ]
+  }
+]

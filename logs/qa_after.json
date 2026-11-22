@@ -1,0 +1,22 @@
+{
+  "stage": "deterministic audit",
+  "date": "2026-11-22",
+  "stats": {
+    "source_count": 6,
+    "wiki_page_count": 9,
+    "slide_count": 14
+  },
+  "checks": {
+    "sources_min_5": true,
+    "source_unique": true,
+    "wiki_source_links": true,
+    "slide_wiki_refs": true,
+    "slide_source_refs": true,
+    "slide_grounding": true,
+    "html_generated": true
+  },
+  "all_pass": true,
+  "issues": [],
+  "mapping_issues": [],
+  "note": "source metadata and crossreferences are tested; semantic correctness requires human review"
+}

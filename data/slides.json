@@ -1,0 +1,220 @@
+[
+  {
+    "id": "s01",
+    "eyebrow": "RAG / 101",
+    "title": "讓 AI 先找資料，再回答",
+    "sub": "Retrieval-Augmented Generation｜檢索增強生成",
+    "kind": "cover",
+    "wiki": [
+      "intro"
+    ],
+    "sources": [
+      "S01",
+      "S02"
+    ]
+  },
+  {
+    "id": "s02",
+    "eyebrow": "01 / WHY",
+    "title": "為什麼直接問 LLM 還不夠？",
+    "sub": "遇到最新、專屬或需要查證的資訊，模型可能猜測。",
+    "kind": "problem",
+    "wiki": [
+      "intro",
+      "limits"
+    ],
+    "sources": [
+      "S02",
+      "S03"
+    ]
+  },
+  {
+    "id": "s03",
+    "eyebrow": "02 / CONCEPT",
+    "title": "RAG 到底是什麼？",
+    "sub": "RAG = Retrieval（檢索） + Augmented（增強） + Generation（生成）",
+    "kind": "definition",
+    "wiki": [
+      "intro"
+    ],
+    "sources": [
+      "S01",
+      "S02",
+      "S03"
+    ]
+  },
+  {
+    "id": "s04",
+    "eyebrow": "03 / PIPELINE",
+    "title": "三步驟：找 → 放 → 答",
+    "sub": "Retrieve → Augment → Generate",
+    "kind": "pipeline",
+    "wiki": [
+      "retrieve",
+      "prompt"
+    ],
+    "sources": [
+      "S01",
+      "S04"
+    ]
+  },
+  {
+    "id": "s05",
+    "eyebrow": "04 / BEFORE Q&A",
+    "title": "先建好知識庫，才能有效查資料",
+    "sub": "文件 → 清理與切塊 → 建索引",
+    "kind": "index",
+    "wiki": [
+      "prepare",
+      "embedding"
+    ],
+    "sources": [
+      "S02",
+      "S04"
+    ]
+  },
+  {
+    "id": "s06",
+    "eyebrow": "05 / SEARCH",
+    "title": "搜尋不一定只看關鍵字",
+    "sub": "關鍵字、語意向量、混合搜尋",
+    "kind": "search",
+    "wiki": [
+      "embedding",
+      "retrieve"
+    ],
+    "sources": [
+      "S04"
+    ]
+  },
+  {
+    "id": "s07",
+    "eyebrow": "06 / LIVE EXAMPLE",
+    "title": "一起拆解一則校園提問",
+    "sub": "「週日可以使用實驗室嗎？」",
+    "kind": "example",
+    "wiki": [
+      "applications",
+      "retrieve",
+      "prompt"
+    ],
+    "sources": [
+      "S02",
+      "S04"
+    ]
+  },
+  {
+    "id": "s08",
+    "eyebrow": "07 / DIFFERENCES",
+    "title": "RAG ≠ 重新訓練模型",
+    "sub": "一般 LLM、RAG、微調，各自擅長不同任務",
+    "kind": "compare",
+    "wiki": [
+      "compare"
+    ],
+    "sources": [
+      "S01",
+      "S02",
+      "S03"
+    ]
+  },
+  {
+    "id": "s09",
+    "eyebrow": "08 / CAUTIONS",
+    "title": "找到資料，也還是可能答錯",
+    "sub": "錯誤來源可能是文件、檢索，也可能是生成。",
+    "kind": "risks",
+    "wiki": [
+      "limits"
+    ],
+    "sources": [
+      "S03",
+      "S04"
+    ]
+  },
+  {
+    "id": "s10",
+    "eyebrow": "09 / QUALITY",
+    "title": "怎麼知道答案有沒有根據？",
+    "sub": "先查找得對不對，再查回答是否忠實",
+    "kind": "evaluation",
+    "wiki": [
+      "evaluation"
+    ],
+    "sources": [
+      "S04",
+      "S05",
+      "S06"
+    ]
+  },
+  {
+    "id": "s11",
+    "eyebrow": "10 / BUILD",
+    "title": "做一個小型 RAG 的 5 個步驟",
+    "sub": "從可信文件出發，不必一次做成大型系統。",
+    "kind": "checklist",
+    "wiki": [
+      "prepare",
+      "retrieve",
+      "prompt",
+      "evaluation"
+    ],
+    "sources": [
+      "S02",
+      "S04",
+      "S05",
+      "S06"
+    ]
+  },
+  {
+    "id": "s12",
+    "eyebrow": "11 / QUIZ",
+    "title": "你真的看懂 RAG 了嗎？",
+    "sub": "選擇哪一個流程最合理",
+    "kind": "quiz",
+    "wiki": [
+      "retrieve",
+      "prompt"
+    ],
+    "sources": [
+      "S04"
+    ]
+  },
+  {
+    "id": "s13",
+    "eyebrow": "12 / SUMMARY",
+    "title": "帶走這三件事",
+    "sub": "先找證據、依據作答、再做檢查。",
+    "kind": "summary",
+    "wiki": [
+      "intro",
+      "limits",
+      "evaluation"
+    ],
+    "sources": [
+      "S01",
+      "S03",
+      "S04",
+      "S05"
+    ]
+  },
+  {
+    "id": "s14",
+    "eyebrow": "REFERENCES",
+    "title": "本簡報使用的 6 份知識來源",
+    "sub": "可由每張投影片右下角回到 Wiki 與原始資料。",
+    "kind": "references",
+    "wiki": [
+      "intro",
+      "evaluation"
+    ],
+    "sources": [
+      "S01",
+      "S02",
+      "S03",
+      "S04",
+      "S05",
+      "S06"
+    ]
+  }
+]

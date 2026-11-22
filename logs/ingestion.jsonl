@@ -1,0 +1,8 @@
+{"time": "2026-11-22", "stage": "DISCUSS", "action": "先確定範圍：以非技術初學者理解 RAG 核心流程為目標；排除模型訓練公式與平台安裝細節。", "result": "outline agreed as working scope; user may customize"}
+{"time": "2026-11-22", "stage": "INGEST", "source_id": "S01", "action": "檢視來源概要→萃取可查證重點→寫入來源摘要→更新 Wiki 知識對應", "result": "created sources/S01.md", "fact_count": 2}
+{"time": "2026-11-22", "stage": "INGEST", "source_id": "S02", "action": "檢視來源概要→萃取可查證重點→寫入來源摘要→更新 Wiki 知識對應", "result": "created sources/S02.md", "fact_count": 2}
+{"time": "2026-11-22", "stage": "INGEST", "source_id": "S03", "action": "檢視來源概要→萃取可查證重點→寫入來源摘要→更新 Wiki 知識對應", "result": "created sources/S03.md", "fact_count": 2}
+{"time": "2026-11-22", "stage": "INGEST", "source_id": "S04", "action": "檢視來源概要→萃取可查證重點→寫入來源摘要→更新 Wiki 知識對應", "result": "created sources/S04.md", "fact_count": 3}
+{"time": "2026-11-22", "stage": "INGEST", "source_id": "S05", "action": "檢視來源概要→萃取可查證重點→寫入來源摘要→更新 Wiki 知識對應", "result": "created sources/S05.md", "fact_count": 2}
+{"time": "2026-11-22", "stage": "INGEST", "source_id": "S06", "action": "檢視來源概要→萃取可查證重點→寫入來源摘要→更新 Wiki 知識對應", "result": "created sources/S06.md", "fact_count": 2}
+{"time": "2026-11-22", "stage": "SYNTHESIZE", "action": "整合重複主題成 9 個互相連結的 Wiki 概念頁，並映射 14 張簡報。", "result": "9 pages / 14 slides"}

@@ -1,0 +1,40 @@
+{
+  "stage": "deterministic audit",
+  "date": "2026-11-22",
+  "stats": {
+    "source_count": 6,
+    "wiki_page_count": 9,
+    "slide_count": 14
+  },
+  "checks": {
+    "sources_min_5": true,
+    "source_unique": true,
+    "wiki_source_links": true,
+    "slide_wiki_refs": true,
+    "slide_source_refs": true,
+    "slide_grounding": false,
+    "html_generated": true
+  },
+  "all_pass": false,
+  "issues": [
+    "source-to-slide claim mapping fails: [{\"slide\": \"s10\", \"cited\": [\"S04\", \"S06\"], \"supported_by_wiki\": [\"S04\", \"S05\", \"S06\"], \"required_evidence\": [\"S05\"]}]"
+  ],
+  "mapping_issues": [
+    {
+      "slide": "s10",
+      "cited": [
+        "S04",
+        "S06"
+      ],
+      "supported_by_wiki": [
+        "S04",
+        "S05",
+        "S06"
+      ],
+      "required_evidence": [
+        "S05"
+      ]
+    }
+  ],
+  "note": "source metadata and crossreferences are tested; semantic correctness requires human review"
+}
